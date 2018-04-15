@@ -1,0 +1,92 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+img {
+    border: none;
+}
+
+.wrapper {
+    min-width: 970px;
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+.header-main {
+    background: url(images/header-bg-main.jpg) left top repeat-x;
+    height: 181px;
+}
+
+.header {
+    background: url(images/header-bg-road.png) left top no-repeat;
+    height: 181px;
+    position: relative;
+}
+
+.ico {
+    list-style: none;
+    position: absolute;
+    left: 0;
+    top: 0;
+    margin: 35px 0 0 19px;
+}
+
+.ico li {
+    margin: 0 0 20px 0 ;
+}
+
+.header-form {
+    background: #eeeeee;
+    overflow: hidden;
+    padding: 10px 0 10px 30px;
+    width: 290px;
+    height: 25px;
+    border-radius: 0 0 0 10px;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.header-search {
+    background: #ffffff;
+    border: 1px solid #a5acb2;
+    height: 14px;
+    margin: 0 12px 0 0;
+    width: 134px;
+    padding: 2px;
+}
+
+.header-form input {
+    float: left;
+}
+
+.header-menu {
+    list-style: none;
+    float: right;
+    margin: 90px 0 0 0;
+    border-bottom: 3px solid #93b0c8;
+    padding: 0 70px 3px 0;
+}
+
+.header-menu li {
+    float: left;
+    font: bold 15px "Trebuchet MS";
+    color: #ebf0f5;
+    padding: 0 10px;
+    border-left: 1px solid #ebf0f5;
+    line-height: 1em;
+    text-transform: uppercase;
+}
+
+.header-menu li:first-child {
+    border-left: none;
+}
+
+.header-menu li a {
+    color: #ebf0f5;
+    text-decoration: none;
+}
+
+.header-menu li a:hover {
+    text-decoration: underline;
+}
