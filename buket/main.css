@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: "plumbregular";
+    /*src: url("");*/
+}
+
+body {
+    background: #d6dbcb;
+    padding: 20px;
+}
+
+img {
+    border: none;
+}
+
+.karkas {
+    min-width: 945px;
+    max-width: 1300px;
+    margin: 0 auto;
+}
+
+.head {
+    background: #e6edd5 url(img/bg_head.png) left top repeat-x;
+    height: 500px;
+    position: relative;
+}
+
+.logo {
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: 54px 0 0 24px;
+}
+
+.menu {
+    list-style: none;
+    overflow: hidden;
+    float: left;
+    margin: 50px 0 0 21%;
+    position: relative;
+}
+
+.menu li {
+    float: left;
+    margin: 0 20px;
+    font-size: 15px;
+    color: #be1a2a;
+    text-decoration: none;
+}
+
+.menu li a {
+    color: #be1a2a;
+}
+
+.menu li a:hover {
+    color: #be1a2a;
+    text-decoration: none;
+}
+
+.ico {
+    float: right;
+    margin: 52px 25px 0 0;
+}
+
+.ico img {
+    margin: 0 7px;
+}
